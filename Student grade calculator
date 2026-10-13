@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+int marks, i;
+
+printf("Enter your marks (0-100): ");
+scanf("%d", &marks);
+
+for (i = 1; i <= 1; i++) {
+    if (marks < 0 || marks > 100) {
+        printf("Invalid marks!\n");
+    } else if (marks >= 90) {
+        printf("Grade A\n");
+    } else if (marks >= 75) {
+        printf("Grade B\n");
+    } else if (marks >= 60) {
+        printf("Grade C\n");
+    } else if (marks >= 40) {
+        printf("Grade D\n");
+    } else {
+        printf("Fail\n");
+    }
+}
+
+return 0;
+
+}
